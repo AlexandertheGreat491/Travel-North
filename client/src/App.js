@@ -1,6 +1,12 @@
+//imports react
 import React, {useState} from "react";
-
+//imports components
 import Header from "./components/Header";
+//imports pages
+//imports the NoMatch page
+import NoMatch from "./pages/NoMatch";
+//imports the Home page
+import Home from "./pages/Home";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

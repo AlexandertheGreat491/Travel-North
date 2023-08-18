@@ -3,6 +3,7 @@ import React, {useState} from "react";
 
 //imports components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 //imports pages
 //imports the NoMatch page

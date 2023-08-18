@@ -10,7 +10,9 @@ import NoMatch from "./pages/NoMatch";
 
 //imports the Home page
 import Home from "./pages/Home";
+//imports the Travel page
 import Travel from "./pages/Travel";
+//imports the Explore page
 import Explore from "./pages/Explore";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

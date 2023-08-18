@@ -2,7 +2,9 @@
 import React, {useState} from "react";
 
 //imports components
+//imports the Header component
 import Header from "./components/Header";
+//imports the Footer component
 import Footer from "./components/Footer";
 
 //imports pages

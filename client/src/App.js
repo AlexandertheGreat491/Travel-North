@@ -1,5 +1,5 @@
 //imports react
-import React from "react";
+import React, {useState} from "react";
 
 //imports components
 //imports the Header
@@ -25,33 +25,45 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
+  const [options] = useState([{name: "Travel"}]);
+  const [currentOption, setOption] = useState(options[0]);
   
   return (
-    <Router>
     
-      <Header
-      
+    
+      <div>
+        <Router>
+        <Header
+      options={options}
+      setOption={setOption}
+      currentOption={currentOption}
       />
-      
         <Routes>
         <Route
             path="/"
             element={<Home
-            
+            options={options}
+            setOption={setOption}
+            currentOption={currentOption}
                />}
           />
+          
+         
           <Route path="/Travel" element={<Travel/>} />
           <Route path="/Explore" element={<Explore/>}/>
           <Route
           path="*"
           element={<NoMatch/>}
           />
-        </Routes>
+          </Routes>
+          </Router>
+          <Footer/>
+        </div>
+        
       
-        <Footer/>
-      
+        
     
-    </Router>
+    
   );
 }
 

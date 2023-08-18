@@ -10,6 +10,8 @@ import NoMatch from "./pages/NoMatch";
 
 //imports the Home page
 import Home from "./pages/Home";
+import Travel from "./pages/Travel";
+import Explore from "./pages/Explore";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -38,9 +40,8 @@ function App() {
             currentOption={currentOption}
                />}
           />
-          <Route path="/travel" element={<Travel/>} />
-          <Route path="/AllTravel" element={<AllTravel/>}/>
-          <Route path="/Boarding" element={<Boarding/>}/>
+          <Route path="/Travel" element={<Travel/>} />
+          <Route path="/Explore" element={<Explore/>}/>
           <Route
           path="*"
           element={<NoMatch/>}

@@ -1,8 +1,6 @@
 // imports packages for react application
 import React from "react";
 import { Link } from "react-router-dom";
-
-
 function Header() {
   return (
     <header className="col-12 d-inline-flex pb-3">
@@ -12,7 +10,7 @@ function Header() {
             id="navheader"
             className="d-inline-flex w-100 justify-content-center ms-4"
           >
-            Woof's Up!
+            Travel North
           </h1>
         </Link>
 

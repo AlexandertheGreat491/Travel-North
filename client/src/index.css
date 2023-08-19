@@ -36,3 +36,9 @@ code {
 .header {
   background-color: var(--background);
 }
+
+.navlinks {
+  color: var(--quarternary);
+  font-weight: 500;
+  font-size: 1.5em;
+}

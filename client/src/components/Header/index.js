@@ -11,7 +11,7 @@ function Header()  {
         <Link to="/">
           <h1
             id="navheader"
-            className="d-inline-flex w-100 justify-content-center ms-4"
+            className="d-inline-flex w-100 justify-content-center ms-5"
           >
             Travel North
           </h1>
@@ -23,7 +23,7 @@ function Header()  {
             
             <>
               <Link
-                className="navlinks me-3 ms-4 mb-2"
+                className="navlinks m-4 me-5"
                 to="/Travel"
                 style={{ width: "5%", height: "15%" }}
               >
@@ -31,7 +31,7 @@ function Header()  {
               </Link>
               
               <Link
-                className="navlinks me-3 ms-4 mb-2"
+                className="navlinks m-4 me5"
                 to="/Explore"
                 style={{ width: "5%", height: "15%" }}
               >

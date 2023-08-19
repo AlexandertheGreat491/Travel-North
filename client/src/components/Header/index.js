@@ -2,9 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
-function Header()  {
-  
+function Header() {
   return (
     <header className="col-12 d-inline-flex pb-3 header">
       <div>
@@ -19,8 +17,6 @@ function Header()  {
 
         <div id="nav" className="mt-3">
           <nav className="justify-content-center d-inline-flex flex-row">
-            
-            
             <>
               <Link
                 className="navlinks m-4 me-5"
@@ -29,7 +25,7 @@ function Header()  {
               >
                 Travel
               </Link>
-              
+
               <Link
                 className="navlinks m-4 me5"
                 to="/Explore"
@@ -37,7 +33,6 @@ function Header()  {
               >
                 Explore
               </Link>
-              
             </>
           </nav>
         </div>

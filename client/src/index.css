@@ -27,6 +27,8 @@ code {
 /*black-olice*/
 }
 
+/*Header component styling*/
+
 #navheader {
   font-size: 2.5em;
   font-weight: 700;
@@ -37,8 +39,9 @@ code {
   background-color: var(--background);
 }
 
-.navlinks {
-  color: var(--quarternary);
+.navbuttons {
+  background-color: var(--tertiary);
+  color: var(--primary);
   font-weight: 500;
   font-size: 1.5em;
 }

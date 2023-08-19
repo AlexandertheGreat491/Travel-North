@@ -24,7 +24,7 @@ function Header() {
                 to="/Travel"
                 style={{ width: "7%", height: "12%" }}
               >
-                <button>
+                <button className="navbuttons">
                 Travel
                 </button>
               </Link>
@@ -34,7 +34,7 @@ function Header() {
                 to="/Explore"
                 style={{ width: "7%", height: "12%" }}
               >
-                <button>
+                <button className="navbuttons">
                 Explore
                 </button>
               </Link>

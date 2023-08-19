@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 function Header()  {
   
   return (
-    <header className="col-12 d-inline-flex pb-3">
+    <header className="col-12 d-inline-flex pb-3 header">
       <div>
         <Link to="/">
           <h1
             id="navheader"
-            className="d-inline-flex w-100 justify-content-center ms-4 header"
+            className="d-inline-flex w-100 justify-content-center ms-4"
           >
             Travel North
           </h1>

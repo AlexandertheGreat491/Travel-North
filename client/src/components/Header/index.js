@@ -15,12 +15,12 @@ function Header() {
           </h1>
         </Link>
 
-        <div id="nav" className="mt-3">
+        <div id="nav" className="ms-5 mt-3">
           <nav className="justify-content-center d-inline-flex flex-row">
             <>
             
               <Link
-                className="navlinks m-4 me-5"
+                className="navlinks m-3 me-5"
                 to="/Travel"
                 style={{ width: "7%", height: "12%" }}
               >
@@ -30,7 +30,7 @@ function Header() {
               </Link>
 
               <Link
-                className="navlinks m-4 me5"
+                className="navlinks m-3 me-5"
                 to="/Explore"
                 style={{ width: "7%", height: "12%" }}
               >

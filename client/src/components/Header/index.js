@@ -24,18 +24,18 @@ function Header()  {
             <>
               <Link
                 className="navlinks me-3 ms-4 mb-2"
-                to="/"
+                to="/Travel"
                 style={{ width: "5%", height: "15%" }}
               >
-                Page
+                Travel
               </Link>
               
               <Link
                 className="navlinks me-3 ms-4 mb-2"
-                to=""
+                to="/Explore"
                 style={{ width: "5%", height: "15%" }}
               >
-                Page
+                Explore
               </Link>
               
             </>

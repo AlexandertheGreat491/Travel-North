@@ -12,8 +12,6 @@ const Footer = () => {
         <a className="m-2" href="https://github.com/AlexandertheGreat491">
           <FaGithub /> Alexander Van Dyke
         </a>{" "}
-        
-        
       </div>
     </footer>
   );

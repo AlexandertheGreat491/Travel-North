@@ -11,6 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Universal styling */
+/*color pallat taken from https://coolors.co/2d3047-93b7be-e0ca3c-a799b7-048a81 */
+:root {
+  --primary: #717568ff;
+/*dim gray*/
+--secondary: #bacba9ff;
+/*sage*/
+--tertiary: #f1bf98ff;
+/*peach*/
+--quarternary: #e1f4cbff;
+/*nyanza*/
+--background: #3f4739ff;
+/*black-olice*/
+}
 
 #navheader {
   font-size: 2.5em;

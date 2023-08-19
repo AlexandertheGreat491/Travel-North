@@ -22,7 +22,7 @@ function Header() {
               <Link
                 className="navlinks m-4 me-5"
                 to="/Travel"
-                style={{ width: "5%", height: "15%" }}
+                style={{ width: "7%", height: "12%" }}
               >
                 <button>
                 Travel
@@ -32,7 +32,7 @@ function Header() {
               <Link
                 className="navlinks m-4 me5"
                 to="/Explore"
-                style={{ width: "5%", height: "15%" }}
+                style={{ width: "7%", height: "12%" }}
               >
                 <button>
                 Explore

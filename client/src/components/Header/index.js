@@ -18,12 +18,15 @@ function Header() {
         <div id="nav" className="mt-3">
           <nav className="justify-content-center d-inline-flex flex-row">
             <>
+            
               <Link
                 className="navlinks m-4 me-5"
                 to="/Travel"
                 style={{ width: "5%", height: "15%" }}
               >
+                <button>
                 Travel
+                </button>
               </Link>
 
               <Link
@@ -31,7 +34,9 @@ function Header() {
                 to="/Explore"
                 style={{ width: "5%", height: "15%" }}
               >
+                <button>
                 Explore
+                </button>
               </Link>
             </>
           </nav>

@@ -11,7 +11,7 @@ function Header()  {
         <Link to="/">
           <h1
             id="navheader"
-            className="d-inline-flex w-100 justify-content-center ms-4"
+            className="d-inline-flex w-100 justify-content-center ms-4 header"
           >
             Travel North
           </h1>

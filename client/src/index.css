@@ -59,6 +59,13 @@ code {
   background-color: var(--primary);
 }
 
+.info {
+  background-color: var(--tertiary);
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--primary);
+}
+
 /*Foot styling*/
 
 .foot {

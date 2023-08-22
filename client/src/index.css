@@ -50,4 +50,7 @@ code {
 
 .homeheader{
   background-color: var(--quarternary);
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--primary);
 }

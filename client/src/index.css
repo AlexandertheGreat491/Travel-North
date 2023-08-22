@@ -54,3 +54,13 @@ code {
   font-weight: 500;
   color: var(--primary);
 }
+
+.about {
+  background-color: var(--primary);
+}
+
+/*Foot styling*/
+
+.foot {
+  background-color: var(--background);
+}

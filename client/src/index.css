@@ -27,6 +27,13 @@ code {
 /*black-olice*/
 }
 
+/* CSS HEX */
+/*--peach: #f1bf98ff;
+--nyanza: #e1f4cbff;
+--sage: #bacba9ff;
+--dim-gray: #717568ff;
+--black-olive: #3f4739ff;*/
+
 /*Header component styling*/
 
 #navheader {
@@ -58,6 +65,7 @@ code {
 .about {
   background-color: var(--primary);
   height: 100%;
+  border: '2px solid #e1f4cbff';
 }
 
 .info {
